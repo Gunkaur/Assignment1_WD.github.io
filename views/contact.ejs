@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunjan Kaur Contact</title>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    <style>
+        body {
+            background-image: url('/images/b1.png');
+            background-size: cover; /* Adjust the image size to cover the entire viewport */
+            background-attachment: fixed; /* Keeps the background fixed while scrolling */
+        }
+    </style>
+</head>
+<body>
+    
+    <%- include('partials/header') %>
+    
+<br>
+<center>
+    <h1 style="color: rgb(31, 79, 9); font-size: xx-large;"> LET'S Connect </h1>
+    <p>Feel free to get in touch with me. I'm always open to new opportunities, collaborations, and discussions.<br> I look forward to connecting with you and exploring potential ways to work together. <br>Please don't hesitate to reach out..</p>
+<br>
+    <form action="mailto:gsachdeva0903@gmail.com" method="post" enctype="text/plain">
+      <table>
+        <tr style="text-align: left;">
+            <th>
+              <label for="Name" style="color: black; text-align: left;"><b>Name: </b>&nbsp;</label> </th>
+            <th> <input type="text" id="Name" name="Name" size="40" value="Enter Your Name" style="height: 40px;"></th>
+        </tr>
+
+        <tr style="text-align: left;">
+        <th>   <label for="Contact Name" style="color: black; text-align: left;"><b>Contact Number: </b>&nbsp;</label></th> <th>  <input type="tel" id="Contact Number" name="Contact Number" size="40" value="Enter Your Phone Number " style="height: 40px;"> </th>
+        </tr>
+    
+  
+    <tr style="text-align: left;">
+       <th> <label for="Email" style="color: black;"><b>Email: </b>&nbsp;</label></th><th> <input type="email" id="Email ID" name="Email ID" size="40" value="Enter Your Email Address" style="height: 40px;"> </th>
+    </tr>
+   
+        <tr style="text-align: left;">
+       
+   
+</tr>
+    <tr style="text-align: left;">
+    
+  <th>  <label for="Message" style="color: black;"><b>Message: </b>&nbsp;</label> </th> <th> <input type="text" id="Message" name="Message" size="40" value="Message" style="height: 150px; width: 300px"> </th>
+</tr>
+
+
+</form>
+</table>
+<br><br>
+
+    <input type="submit" value="Submit" style="height:29px; width:150px; background-color:#13970e94; color: white; height: 40px; font-size: larger; ">
+    <input type="reset" style="height:29px; width:150px; background-color:#13970e93; color: white; height: 40px; font-size: larger; ">
+</center>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<center>
+    <%- include('partials/footer') %>
+</center>
+</body>
+

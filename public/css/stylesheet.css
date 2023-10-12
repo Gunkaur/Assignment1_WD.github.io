@@ -1,0 +1,84 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for header */
+header {
+    background-color: rgba(223, 223, 223, 0.769);
+    color: #fff;
+    padding: 1rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    margin-right: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Styling for welcome section */
+.welcome {
+    text-align: center;
+    padding: 2rem;
+}
+
+.welcome h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.welcome p {
+    font-size: 1rem;
+    color: #444;
+}
+
+.welcome a {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: #296d1488;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+
+    /* Change font size and color for the links */
+    a {
+        font-size: 25px; /* Set your desired font size */
+        color: #13970e; /* Set your desired color */
+        text-decoration: none; /* Remove underlines from links */
+        font-weight: bold;
+        /*text-shadow: -1px -1px 0 #dbd8d8, 1px -1px 0 #dbd8d8, -1px 1px 0 #dbd8d8, 1px 1px 0 #dbd8d8;*/
+    }
+   
+    .download-link {
+        color: #0056b3; /* Change the text color to blue */
+        text-decoration: none; /* Remove underlines */
+        font-size: 18px;
+        /*font-weight: bold; *//* Apply bold font weight */
+    }
+    
+    .download-link:hover {
+        color: #747678; /* Change the text color on hover */
+    }
+
+    .about-link:hover{
+        color: #e8e8e8; 
+    }
